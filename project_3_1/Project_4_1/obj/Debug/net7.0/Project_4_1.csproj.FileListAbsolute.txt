@@ -1,0 +1,15 @@
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\bin\Debug\net7.0\Project_4_1.exe
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\bin\Debug\net7.0\Project_4_1.deps.json
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\bin\Debug\net7.0\Project_4_1.runtimeconfig.json
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\bin\Debug\net7.0\Project_4_1.dll
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\bin\Debug\net7.0\Project_4_1.pdb
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\Project_4_1.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\Project_4_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\Project_4_1.AssemblyInfoInputs.cache
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\Project_4_1.AssemblyInfo.cs
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\Project_4_1.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\Project_4_1.dll
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\refint\Project_4_1.dll
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\Project_4_1.pdb
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\Project_4_1.genruntimeconfig.cache
+C:\Users\student\Documents\AP\project_3_1\Project_4_1\obj\Debug\net7.0\ref\Project_4_1.dll
