@@ -1,0 +1,15 @@
+C:\Users\student\Documents\AP\Project_19_10\bin\Debug\net6.0\Project_19_10.exe
+C:\Users\student\Documents\AP\Project_19_10\bin\Debug\net6.0\Project_19_10.deps.json
+C:\Users\student\Documents\AP\Project_19_10\bin\Debug\net6.0\Project_19_10.runtimeconfig.json
+C:\Users\student\Documents\AP\Project_19_10\bin\Debug\net6.0\Project_19_10.dll
+C:\Users\student\Documents\AP\Project_19_10\bin\Debug\net6.0\Project_19_10.pdb
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\Project_19_10.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\Project_19_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\Project_19_10.AssemblyInfoInputs.cache
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\Project_19_10.AssemblyInfo.cs
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\Project_19_10.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\Project_19_10.dll
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\refint\Project_19_10.dll
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\Project_19_10.pdb
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\Project_19_10.genruntimeconfig.cache
+C:\Users\student\Documents\AP\Project_19_10\obj\Debug\net6.0\ref\Project_19_10.dll
