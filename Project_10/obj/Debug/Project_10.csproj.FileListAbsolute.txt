@@ -1,0 +1,8 @@
+C:\Users\student\Documents\AP\Project_10\bin\Debug\Project_10.exe.config
+C:\Users\student\Documents\AP\Project_10\bin\Debug\Project_10.exe
+C:\Users\student\Documents\AP\Project_10\bin\Debug\Project_10.pdb
+C:\Users\student\Documents\AP\Project_10\obj\Debug\Project_10.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\Project_10\obj\Debug\Project_10.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Documents\AP\Project_10\obj\Debug\Project_10.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\Project_10\obj\Debug\Project_10.exe
+C:\Users\student\Documents\AP\Project_10\obj\Debug\Project_10.pdb
