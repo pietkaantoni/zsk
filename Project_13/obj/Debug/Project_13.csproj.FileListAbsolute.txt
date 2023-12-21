@@ -1,0 +1,8 @@
+C:\Users\student\Documents\AP\Project_13\bin\Debug\Project_13.exe.config
+C:\Users\student\Documents\AP\Project_13\bin\Debug\Project_13.exe
+C:\Users\student\Documents\AP\Project_13\bin\Debug\Project_13.pdb
+C:\Users\student\Documents\AP\Project_13\obj\Debug\Project_13.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\Project_13\obj\Debug\Project_13.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Documents\AP\Project_13\obj\Debug\Project_13.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\Project_13\obj\Debug\Project_13.exe
+C:\Users\student\Documents\AP\Project_13\obj\Debug\Project_13.pdb
