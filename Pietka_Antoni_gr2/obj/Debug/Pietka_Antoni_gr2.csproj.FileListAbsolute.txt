@@ -1,0 +1,2 @@
+C:\Users\student\Documents\Pietka_Antoni_gr2\obj\Debug\Pietka_Antoni_gr2.csproj.AssemblyReference.cache
+C:\Users\student\Documents\Pietka_Antoni_gr2\obj\Debug\Pietka_Antoni_gr2.csproj.CoreCompileInputs.cache
