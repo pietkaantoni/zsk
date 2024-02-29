@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\Project12_1_konstruktory\Project12_1_konstruktory\bin\Debug\Project12_1_konstruktory.exe.config
+C:\Users\student\Documents\AP\Project12_1_konstruktory\Project12_1_konstruktory\bin\Debug\Project12_1_konstruktory.exe
+C:\Users\student\Documents\AP\Project12_1_konstruktory\Project12_1_konstruktory\bin\Debug\Project12_1_konstruktory.pdb
+C:\Users\student\Documents\AP\Project12_1_konstruktory\Project12_1_konstruktory\obj\Debug\Project12_1_konstruktory.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\Project12_1_konstruktory\Project12_1_konstruktory\obj\Debug\Project12_1_konstruktory.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\Project12_1_konstruktory\Project12_1_konstruktory\obj\Debug\Project12_1_konstruktory.exe
+C:\Users\student\Documents\AP\Project12_1_konstruktory\Project12_1_konstruktory\obj\Debug\Project12_1_konstruktory.pdb
