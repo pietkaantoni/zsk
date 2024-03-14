@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\Project13_1_enum\bin\Debug\Project13_1_enum.exe.config
+C:\Users\student\Documents\AP\Project13_1_enum\bin\Debug\Project13_1_enum.exe
+C:\Users\student\Documents\AP\Project13_1_enum\bin\Debug\Project13_1_enum.pdb
+C:\Users\student\Documents\AP\Project13_1_enum\obj\Debug\Project13_1_enum.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\Project13_1_enum\obj\Debug\Project13_1_enum.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\Project13_1_enum\obj\Debug\Project13_1_enum.exe
+C:\Users\student\Documents\AP\Project13_1_enum\obj\Debug\Project13_1_enum.pdb
