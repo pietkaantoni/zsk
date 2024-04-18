@@ -1,0 +1,2 @@
+C:\Users\student\Documents\AP\Project13_2_destruktor_symulator\obj\Debug\Project13_2_destruktor_symulator.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\Project13_2_destruktor_symulator\obj\Debug\Project13_2_destruktor_symulator.csproj.CoreCompileInputs.cache
