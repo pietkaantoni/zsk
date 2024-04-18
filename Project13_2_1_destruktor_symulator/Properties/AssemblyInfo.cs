@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("Project13_2_destruktor_symulator")]
+[assembly: AssemblyTitle("Project13_2_1_destruktor_symulator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Project13_2_destruktor_symulator")]
+[assembly: AssemblyProduct("Project13_2_1_destruktor_symulator")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Następujący identyfikator GUID jest identyfikatorem biblioteki typów w przypadku udostępnienia tego projektu w modelu COM
-[assembly: Guid("ecc18ee5-d8b9-4fae-bd7e-a8c1e2e568ac")]
+[assembly: Guid("a74db6f9-1992-4f7e-b03f-58e1ef48e968")]
 
 // Informacje o wersji zestawu zawierają następujące cztery wartości:
 //

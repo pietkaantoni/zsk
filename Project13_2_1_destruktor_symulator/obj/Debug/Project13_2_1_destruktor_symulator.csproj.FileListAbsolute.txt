@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\Project13_2_1_destruktor_symulator\obj\Debug\Project13_2_1_destruktor_symulator.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\Project13_2_1_destruktor_symulator\obj\Debug\Project13_2_1_destruktor_symulator.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\Project13_2_1_destruktor_symulator\bin\Debug\Project13_2_1_destruktor_symulator.exe.config
+C:\Users\student\Documents\AP\Project13_2_1_destruktor_symulator\bin\Debug\Project13_2_1_destruktor_symulator.exe
+C:\Users\student\Documents\AP\Project13_2_1_destruktor_symulator\bin\Debug\Project13_2_1_destruktor_symulator.pdb
+C:\Users\student\Documents\AP\Project13_2_1_destruktor_symulator\obj\Debug\Project13_2_1_destruktor_symulator.exe
+C:\Users\student\Documents\AP\Project13_2_1_destruktor_symulator\obj\Debug\Project13_2_1_destruktor_symulator.pdb
