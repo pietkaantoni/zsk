@@ -65,12 +65,34 @@ namespace _1_dziedziczenie
             }
 
         }
+        class Triangle : Shape
+        {
+            private float sideA;
+            private float sideB;
+            private float sideC;
+            
+            public Triangle(float sideA, float sideB, float sideC)
+            {
+                this.sideA = sideA;
+                this.sideB = sideB;
+                this.sideC = sideC;
+            }
 
+            public override float CalculateArea()
+            {
+                float s = (sideA  + sideB + sideC) / 2;
+                return (float)Math.Sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+            }
+            public override float CalculatePerimeter()
+            {
+                return sideA + sideB + sideC;
+            }
+        }
 
 
         static void Main(string[] args)
         {
-            while(true)
+            while (true)
             {
                 Console.WriteLine("Wybierz kształt do obliczenia:");
                 Console.WriteLine("1. Prostokąt");
@@ -82,7 +104,7 @@ namespace _1_dziedziczenie
 
                 int choice = int.Parse(Console.ReadLine());
 
-                switch(choice)
+                switch (choice)
                 {
                     case 1:
                         Rectangle rect = new Rectangle();
@@ -91,17 +113,37 @@ namespace _1_dziedziczenie
                         Console.Write("Podaj wysokość:");
                         float rectHeight = float.Parse(Console.ReadLine());
                         rect.SetDimensions(rectWidth, rectHeight);
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Powierzchnia prostokąta: {0}", rect.CalculateArea());
                         Console.WriteLine("Obwód prostokąta: {0}", rect.CalculatePerimeter());
+                        Console.ResetColor();
                         break;
                     case 2:
                         float circRadius = GetValidInput("Podaj promień:");
                         Circle circ = new Circle(circRadius);
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Powierzchnia koła: {0}", circ.CalculateArea());
                         Console.WriteLine("Obwód koła: {0}", circ.CalculatePerimeter());
+                        Console.ResetColor();
                         break;
                     case 3:
-
+                        float sideA = GetValidInput("Podaj długość boku A: ");
+                        float sideB = GetValidInput("Podaj długość boku B: ");
+                        float sideC = GetValidInput("Podaj długość boku C: ");
+                        if (isValidTriangle(sideA, sideB, sideC))
+                        {
+                            Triangle tri = new Triangle(sideA, sideB, sideC);
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine("Powierzchnia trójkąta: {0}",tri.CalculateArea());
+                            Console.WriteLine("Obwód trójkąta: {0}",tri.CalculatePerimeter());
+                            Console.ResetColor();
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Podane długości boków nie tworzą trójkąta. Spróbuj ponownie.");
+                            Console.ResetColor();
+                        }
                         break;
                     case 4:
 
@@ -131,7 +173,11 @@ namespace _1_dziedziczenie
             circ.SetRadius(2.4f);
             Console.WriteLine("Pole koła wynosi: {0}", circ.CalculateArea());
             */
-            Console.ReadKey();
+        }
+
+        private static bool isValidTriangle(float sideA, float sideB, float sideC)
+        {
+            return (sideA + sideB > sideC) && (sideA + sideC > sideB) && (sideC + sideB > sideA);
         }
 
         private static float GetValidInput(string prompt)
@@ -144,7 +190,7 @@ namespace _1_dziedziczenie
                 {
                     return result;
                 }
-                else 
+                else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Nieprawidłowe dane. Sprubuj ponownie.");
