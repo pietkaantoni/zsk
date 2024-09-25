@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\2_dziedziczenie_kompozycja_biblioteka\obj\Debug\2_dziedziczenie_kompozycja_biblioteka.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\2_dziedziczenie_kompozycja_biblioteka\obj\Debug\2_dziedziczenie_kompozycja_biblioteka.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\2_dziedziczenie_kompozycja_biblioteka\bin\Debug\2_dziedziczenie_kompozycja_biblioteka.exe.config
+C:\Users\student\Documents\AP\2_dziedziczenie_kompozycja_biblioteka\bin\Debug\2_dziedziczenie_kompozycja_biblioteka.exe
+C:\Users\student\Documents\AP\2_dziedziczenie_kompozycja_biblioteka\bin\Debug\2_dziedziczenie_kompozycja_biblioteka.pdb
+C:\Users\student\Documents\AP\2_dziedziczenie_kompozycja_biblioteka\obj\Debug\2_dziedziczenie_kompozycja_biblioteka.exe
+C:\Users\student\Documents\AP\2_dziedziczenie_kompozycja_biblioteka\obj\Debug\2_dziedziczenie_kompozycja_biblioteka.pdb
