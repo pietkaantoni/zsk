@@ -12,7 +12,7 @@ namespace _2_dziedziczenie_kompozycja_biblioteka
         {
             public string FirstName { get; set; }
             public string LastName { get; set; }
-            
+
             public Person(string firstName, string lastName)
             {
                 FirstName = firstName;
@@ -23,7 +23,7 @@ namespace _2_dziedziczenie_kompozycja_biblioteka
         public class Author : Person
         {
             public List<Book> BookList { get; set; }
-            
+
             public Author(string firstName, string lastName) : base(firstName, lastName)
             {
                 BookList = new List<Book>();
@@ -39,8 +39,8 @@ namespace _2_dziedziczenie_kompozycja_biblioteka
             public string Title { get; set; }
             public Author Author { get; set; }
             public int PublicationYear { get; set; }
-            
-            public Book(string title, Author author, int publicationYear) 
+
+            public Book(string title, Author author, int publicationYear)
             {
                 Title = title;
                 Author = author;
@@ -60,37 +60,78 @@ namespace _2_dziedziczenie_kompozycja_biblioteka
             public void BorrowBook(Book book)
             {
                 BorrowedBooksList.Add(book);
-                Console.WriteLine($"Książkę \"{book.Title}\" napisał {book.Author.FirstName} {book.Author.LastName} i wypożyczył ją {this.FirstName} {this.LastName}");
+                Console.WriteLine($"Czytelnik {FirstName} {LastName} wypożyczył książkę: \"{book.Title}\" którą napisał {book.Author.FirstName} {book.Author.LastName}");
             }
 
+        }
+        public class Library
+        {
+            public List<Book> BooksList { get; set; }
+            public List<Reader> ReaderList { get; set; }
+
+            public Library()
+            {
+                BooksList = new List<Book>;
+                ReaderList = new List<Reader>;
+            }
+            public void AddBook(Book book)
+            {
+                BooksList.Add(book);
+                Console.WriteLine($"Dodano książkę: {book.Title}");
+            }
+            public void AddReader(Reader reader)
+            {
+                ReaderList.Add(reader);
+                Console.WriteLine($"Dodano czytelnika: {reader.FirstName} {reader.LastName}");
+            }
+            public void BorrowBook(Reader reader, Book book)
+            {
+                if(BooksList.Contains(book))
+                {
+                    reader.BorrowBook(book);
+                    BooksList.Remove(book);
+                    Console.WriteLine($"Książka {book.Title} została wypożyczona przez: {reader.FirstName} {reader.LastName}");
+                }
+                else
+                {
+                    Console.WriteLine($"Nie ma książki: \"{book.Title}\" w bibliotece");
+                }
+            }
         }
 
         static void Main(string[] args)
         {
-/*
-        Zadanie: Utworzenie klasy Reader
-        Cel:
-        Utworzenie klasy Reader, która dziedziczy po klasie Person i reprezentuje czytelnika biblioteki.Klasa ta powinna zawierać listę wypożyczonych książek oraz metodę do dodawania książek do tej listy.
+            /*
+                    Zadanie: Utworzenie klasy Reader
+                    Cel:
+                    Utworzenie klasy Reader, która dziedziczy po klasie Person i reprezentuje czytelnika biblioteki.Klasa ta powinna zawierać listę wypożyczonych książek oraz metodę do dodawania książek do tej listy.
 
 
-        Kroki:
-        Dziedziczenie po klasie Person:
-        Klasa Reader powinna dziedziczyć po klasie Person.
-        Deklaracja właściwości:
-        Utwórz właściwość BorrowedBooksList typu List<Book>, która będzie przechowywać listę wypożyczonych książek.
-        Konstruktor:
-                    Utwórz konstruktor, który przyjmuje dwa parametry: firstName i lastName.
-        Konstruktor powinien inicjalizować pola FirstName i LastName(odziedziczone z klasy Person) oraz inicjalizować pustą listę BorrowedBooksList.
-        Metoda BorrowBook:
-        Utwórz metodę BorrowBook, która przyjmuje parametr typu Book.
-        Metoda ta powinna dodawać książkę do listy BorrowedBooksList i wyświetlać komunikat informujący o wypożyczeniu książki.            
-*/
+                    Kroki:
+                    Dziedziczenie po klasie Person:
+                    Klasa Reader powinna dziedziczyć po klasie Person.
+                    Deklaracja właściwości:
+                    Utwórz właściwość BorrowedBooksList typu List<Book>, która będzie przechowywać listę wypożyczonych książek.
+                    Konstruktor:
+                                Utwórz konstruktor, który przyjmuje dwa parametry: firstName i lastName.
+                    Konstruktor powinien inicjalizować pola FirstName i LastName(odziedziczone z klasy Person) oraz inicjalizować pustą listę BorrowedBooksList.
+                    Metoda BorrowBook:
+                    Utwórz metodę BorrowBook, która przyjmuje parametr typu Book.
+                    Metoda ta powinna dodawać książkę do listy BorrowedBooksList i wyświetlać komunikat informujący o wypożyczeniu książki.            
+            */
 
             Author author = new Author("Adam", "Mickiewicz");
             Book book = new Book("Pan Tadeusz", author, 1834);
             author.AddBook(book);
+            
             Reader reader = new Reader("Antoni", "Piętka");
-            reader.BorrowBook(book);
+            Library library = new Library();
+            library.AddBook(book);
+            library.AddReader(reader);
+
+            library.BorrowBook(reader, book);
+
+
 
             Console.Read();
         }
