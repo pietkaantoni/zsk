@@ -68,11 +68,13 @@ namespace _2_dziedziczenie_kompozycja_biblioteka
         {
             public List<Book> BooksList { get; set; }
             public List<Reader> ReaderList { get; set; }
+            public List<Author> AuthorList { get; set; }
 
             public Library()
             {
-                BooksList = new List<Book>;
-                ReaderList = new List<Reader>;
+                BooksList = new List<Book>();
+                ReaderList = new List<Reader>();
+                AuthorList = new List<Author>();
             }
             public void AddBook(Book book)
             {
@@ -84,9 +86,14 @@ namespace _2_dziedziczenie_kompozycja_biblioteka
                 ReaderList.Add(reader);
                 Console.WriteLine($"Dodano czytelnika: {reader.FirstName} {reader.LastName}");
             }
+            public void AddAuthor(Author author)
+            {
+                AuthorList.Add(author);
+                Console.WriteLine($"Dodano autora: {author.FirstName} {author.LastName}");
+            }
             public void BorrowBook(Reader reader, Book book)
             {
-                if(BooksList.Contains(book))
+                if (BooksList.Contains(book))
                 {
                     reader.BorrowBook(book);
                     BooksList.Remove(book);
@@ -123,7 +130,7 @@ namespace _2_dziedziczenie_kompozycja_biblioteka
             Author author = new Author("Adam", "Mickiewicz");
             Book book = new Book("Pan Tadeusz", author, 1834);
             author.AddBook(book);
-            
+
             Reader reader = new Reader("Antoni", "Piętka");
             Library library = new Library();
             library.AddBook(book);
@@ -131,7 +138,67 @@ namespace _2_dziedziczenie_kompozycja_biblioteka
 
             library.BorrowBook(reader, book);
 
+            bool exit = false;
+            while (!exit)
+            {
+                Console.Clear();
+                Console.WriteLine("Menu:");
+                Console.WriteLine("1. Dodaj Autora:");
+                Console.WriteLine("2. Dodaj książkę:");
+                Console.WriteLine("3. Dodaj czytelnika:");
+                Console.WriteLine("4. Wyświetl autorów:");
+                Console.WriteLine("5. Wyświetl książki:");
+                Console.WriteLine("6. Wyświetl czytelników:");
+                Console.WriteLine("8. wyjście:");
 
+                string choice = Console.ReadLine();
+                switch (choice)
+                {
+                    case "1":
+                        Console.WriteLine("Podaj imię autora: ");
+                        string firstname = Console.ReadLine();
+                        Console.WriteLine("Podaj nazwisko autora: ");
+                        string lastname = Console.ReadLine();
+                        library.AddAuthor(new Author(firstname, lastname));
+                        break;
+                    case "2":
+                        Console.WriteLine("Podaj nazwę książki: ");
+                        string bookname = Console.ReadLine();
+                        Console.WriteLine("Podaj rok opublikowania książki: ");
+                        int pyear =int.Parse(Console.ReadLine());
+                        library.AddAuthor(new Book(bookname, , pyear));
+                        break;
+                    case "3":
+                        Console.WriteLine("Podaj imię czytelnika: ");
+                        string firstReaderName = Console.ReadLine();
+                        Console.WriteLine("Podaj nazwisko czytelnika: ");
+                        string lastReaderName = Console.ReadLine();
+                        library.AddAuthor(new Author(firstReaderName, lastReaderName));
+                        break;
+                    case "4":
+                        Console.WriteLine("Autorzy:");
+                        for(int i=0; i<library.AuthorList.Count; i++)
+                        {
+                            Console.WriteLine($"{i + 1}\t{library.AuthorList[i].FirstName} {library.AuthorList[i].LastName}\t");
+                        }
+                        break;
+                    case "5":
+                        Console.WriteLine("Książki:");
+                        for (int i = 0; i < library.BooksList.Count; i++)
+                        {
+                            Console.WriteLine($"{i + 1}\t\"{library.BooksList[i].Title}\" wyprodukowana w:{library.BooksList[i].PublicationYear}\t");
+                        }
+                        break;
+                    case "6":
+                        Console.WriteLine("Czytelnicy:");
+                        for (int i = 0; i < library.ReaderList.Count; i++)
+                        {
+                            Console.WriteLine($"{i + 1}\t{library.ReaderList[i].FirstName} {library.ReaderList[i].LastName}\t");
+                        }
+                        break;
+
+                }
+            }
 
             Console.Read();
         }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6EDDD0F4-E563-4B55-A3A4-F8EBA4C8D128}</ProjectGuid>
+    <ProjectGuid>{9BFC1F8D-CAEC-4136-A4EA-EB670F4AA9D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_2_dziedziczenie_kompozycja_biblioteka</RootNamespace>
     <AssemblyName>2_dziedziczenie_kompozycja_biblioteka</AssemblyName>
