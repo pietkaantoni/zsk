@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\01_Zadanie_Hotel\bin\Debug\01_Zadanie_Hotel.exe.config
+C:\Users\student\Documents\AP\01_Zadanie_Hotel\bin\Debug\01_Zadanie_Hotel.exe
+C:\Users\student\Documents\AP\01_Zadanie_Hotel\bin\Debug\01_Zadanie_Hotel.pdb
+C:\Users\student\Documents\AP\01_Zadanie_Hotel\obj\Debug\01_Zadanie_Hotel.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\01_Zadanie_Hotel\obj\Debug\01_Zadanie_Hotel.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\01_Zadanie_Hotel\obj\Debug\01_Zadanie_Hotel.exe
+C:\Users\student\Documents\AP\01_Zadanie_Hotel\obj\Debug\01_Zadanie_Hotel.pdb

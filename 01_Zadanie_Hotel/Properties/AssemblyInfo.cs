@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Następujący identyfikator GUID jest identyfikatorem biblioteki typów w przypadku udostępnienia tego projektu w modelu COM
-[assembly: Guid("c5ca2830-0fe8-4930-bb8a-4c44b882e8ab")]
+[assembly: Guid("9fa03697-63fe-4650-a2d7-b3615083da3f")]
 
 // Informacje o wersji zestawu zawierają następujące cztery wartości:
 //
@@ -29,5 +29,8 @@ using System.Runtime.InteropServices;
 //      Numer kompilacji
 //      Poprawka
 //
+// Możesz określić wszystkie wartości lub użyć domyślnych numerów kompilacji i poprawki
+// przy użyciu symbolu „*”, tak jak pokazano poniżej:
+// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

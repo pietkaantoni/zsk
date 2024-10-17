@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using static _01_Zadanie_Hotel.Program;
 
 namespace _01_Zadanie_Hotel
 {
@@ -51,12 +52,12 @@ namespace _01_Zadanie_Hotel
             public int Number { get; set; }
             public Type RoomType { get; set; }
             public double CostPerNight { get; set; }
-            public Room(int number, Type roomType, double Cost)
+            public Room(int number, Type roomType, double cost)
             {
                 Number = number;
                 RoomType = roomType;
-                CostPerNight = Cost;
-            } 
+                CostPerNight = cost;
+            }
         }
         public class Guest
         {
@@ -81,16 +82,46 @@ namespace _01_Zadanie_Hotel
             public void AddRoom(int number, Type roomType, double costPerNight)
             {
                 RoomsList.Add(new Room(number, roomType, costPerNight));
-                Console.WriteLine($"Dodano pokój {roomType} z numerem {number}, który kosztuje {costPerNight} na noc");
+                Console.WriteLine($"Dodano pokój {roomType} z numerem {number}, który kosztuje {costPerNight} zł na noc.\n");
             }
             public void AddGuest(string name, string surname)
             {
                 GuestsList.Add(new Guest(name, surname));
-                Console.WriteLine($"Dodano Gościa {name} {surname} do listy gości hotelowych");
+                Console.WriteLine($"Dodano Gościa {surname} {name} do listy gości hotelowych.\n");
             }
             public void RentdRoom(Guest guest, Room room)
             {
-                
+                guest.RentedRooms.Add(room);
+                RoomsList.Remove(room);
+                Console.WriteLine($"{guest.Surname} {guest.Name} wypożyczył pokój {room.RoomType} nr {room.Number}, który kosztuje {room.CostPerNight} zł za noc.\n");
+            }
+            public void ViewGuests()
+            {
+                Console.WriteLine("Goście hotelowi: ");
+                for (int i = 0; i < GuestsList.Count(); i++)
+                {
+                    Console.WriteLine($"{i+1}. {GuestsList[i].Surname} {GuestsList[i].Name}");
+                }
+            }
+            public void ViewRooms()
+            {
+                Console.WriteLine("Wolne pokoje hotelowe: ");
+                for (int i = 0; i < RoomsList.Count(); i++)
+                {
+                    Console.WriteLine($"{i+1}. {RoomsList[i].RoomType}, nr {RoomsList[i].Number}, {RoomsList[i].CostPerNight} zł za noc");
+                }
+            }
+            public void ViewRentedRooms()
+            {
+                Console.WriteLine("Wypożyczone pokoje:");
+                for (int i = 0; i < GuestsList.Count(); i++)
+                {
+                    Console.WriteLine($"\tPrzez {GuestsList[i].Surname} {GuestsList[i].Name}:");
+                    for(int j = 0; j < GuestsList[i].RentedRooms.Count(); j++)
+                    {
+                        Console.WriteLine($"\t\tPokój {GuestsList[i].RentedRooms[j].RoomType} nr {GuestsList[i].RentedRooms[j].Number}, który kosztował {GuestsList[i].RentedRooms[j].CostPerNight} zł za noc");
+                    }
+                }
             }
         }
 
@@ -98,6 +129,10 @@ namespace _01_Zadanie_Hotel
 
         static void Main(string[] args)
         {
+            Hotel hotel = new Hotel();
+            hotel.AddRoom(1, Type.Jednoosobowy, 990.50);
+            hotel.ViewRooms();
+            Console.ReadKey();
         }
     }
 }
