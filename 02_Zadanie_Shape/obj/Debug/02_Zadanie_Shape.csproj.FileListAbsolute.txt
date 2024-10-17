@@ -1,0 +1,2 @@
+C:\Users\student\Documents\AP\02_Zadanie_Shape\obj\Debug\02_Zadanie_Shape.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\02_Zadanie_Shape\obj\Debug\02_Zadanie_Shape.csproj.CoreCompileInputs.cache
