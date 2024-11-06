@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\03_Interfejsy\obj\Debug\03_Interfejsy.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\03_Interfejsy\obj\Debug\03_Interfejsy.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\03_Interfejsy\bin\Debug\03_Interfejsy.exe.config
+C:\Users\student\Documents\AP\03_Interfejsy\bin\Debug\03_Interfejsy.exe
+C:\Users\student\Documents\AP\03_Interfejsy\bin\Debug\03_Interfejsy.pdb
+C:\Users\student\Documents\AP\03_Interfejsy\obj\Debug\03_Interfejsy.exe
+C:\Users\student\Documents\AP\03_Interfejsy\obj\Debug\03_Interfejsy.pdb
