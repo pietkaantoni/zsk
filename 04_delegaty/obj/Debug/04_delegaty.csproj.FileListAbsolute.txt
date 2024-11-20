@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\04_delegaty\obj\Debug\04_delegaty.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\04_delegaty\obj\Debug\04_delegaty.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\04_delegaty\bin\Debug\04_delegaty.exe.config
+C:\Users\student\Documents\AP\04_delegaty\bin\Debug\04_delegaty.exe
+C:\Users\student\Documents\AP\04_delegaty\bin\Debug\04_delegaty.pdb
+C:\Users\student\Documents\AP\04_delegaty\obj\Debug\04_delegaty.exe
+C:\Users\student\Documents\AP\04_delegaty\obj\Debug\04_delegaty.pdb
