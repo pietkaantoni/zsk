@@ -1,0 +1,7 @@
+C:\Users\filip\source\repos\05_delegaty_powiadomienia\bin\Debug\05_delegaty_powiadomienia.exe.config
+C:\Users\filip\source\repos\05_delegaty_powiadomienia\bin\Debug\05_delegaty_powiadomienia.exe
+C:\Users\filip\source\repos\05_delegaty_powiadomienia\bin\Debug\05_delegaty_powiadomienia.pdb
+C:\Users\filip\source\repos\05_delegaty_powiadomienia\obj\Debug\05_delegaty_powiadomienia.csproj.AssemblyReference.cache
+C:\Users\filip\source\repos\05_delegaty_powiadomienia\obj\Debug\05_delegaty_powiadomienia.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\05_delegaty_powiadomienia\obj\Debug\05_delegaty_powiadomienia.exe
+C:\Users\filip\source\repos\05_delegaty_powiadomienia\obj\Debug\05_delegaty_powiadomienia.pdb
