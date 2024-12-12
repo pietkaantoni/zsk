@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\05_2_delegaty_powiadomienia_Menu3\obj\Debug\05_2_delegaty_powiadomienia_Menu3.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\05_2_delegaty_powiadomienia_Menu3\obj\Debug\05_2_delegaty_powiadomienia_Menu3.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\05_2_delegaty_powiadomienia_Menu3\bin\Debug\05_2_delegaty_powiadomienia_Menu3.exe.config
+C:\Users\student\Documents\AP\05_2_delegaty_powiadomienia_Menu3\bin\Debug\05_2_delegaty_powiadomienia_Menu3.exe
+C:\Users\student\Documents\AP\05_2_delegaty_powiadomienia_Menu3\bin\Debug\05_2_delegaty_powiadomienia_Menu3.pdb
+C:\Users\student\Documents\AP\05_2_delegaty_powiadomienia_Menu3\obj\Debug\05_2_delegaty_powiadomienia_Menu3.exe
+C:\Users\student\Documents\AP\05_2_delegaty_powiadomienia_Menu3\obj\Debug\05_2_delegaty_powiadomienia_Menu3.pdb
