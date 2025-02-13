@@ -1,0 +1,7 @@
+C:\Users\student\Documents\AP\6_2_zdarzenia\bin\Debug\6_2_zdarzenia.exe.config
+C:\Users\student\Documents\AP\6_2_zdarzenia\bin\Debug\6_2_zdarzenia.exe
+C:\Users\student\Documents\AP\6_2_zdarzenia\bin\Debug\6_2_zdarzenia.pdb
+C:\Users\student\Documents\AP\6_2_zdarzenia\obj\Debug\6_2_zdarzenia.csproj.AssemblyReference.cache
+C:\Users\student\Documents\AP\6_2_zdarzenia\obj\Debug\6_2_zdarzenia.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AP\6_2_zdarzenia\obj\Debug\6_2_zdarzenia.exe
+C:\Users\student\Documents\AP\6_2_zdarzenia\obj\Debug\6_2_zdarzenia.pdb
