@@ -1,0 +1,7 @@
+C:\Users\student\Documents\06_pola_wlasciwosci_2\bin\Debug\06_pola_wlasciwosci_2.exe.config
+C:\Users\student\Documents\06_pola_wlasciwosci_2\bin\Debug\06_pola_wlasciwosci_2.exe
+C:\Users\student\Documents\06_pola_wlasciwosci_2\bin\Debug\06_pola_wlasciwosci_2.pdb
+C:\Users\student\Documents\06_pola_wlasciwosci_2\obj\Debug\06_pola_wlasciwosci_2.csproj.AssemblyReference.cache
+C:\Users\student\Documents\06_pola_wlasciwosci_2\obj\Debug\06_pola_wlasciwosci_2.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\06_pola_wlasciwosci_2\obj\Debug\06_pola_wlasciwosci_2.exe
+C:\Users\student\Documents\06_pola_wlasciwosci_2\obj\Debug\06_pola_wlasciwosci_2.pdb
